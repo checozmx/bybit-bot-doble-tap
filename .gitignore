@@ -1,0 +1,124 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===============================
+# Entornos virtuales
+# ===============================
+.venv/
+venv/
+ENV/
+env/
+.env/
+.env.*
+
+# ===============================
+# PyInstaller
+# ===============================
+*.manifest
+*.spec
+build/
+dist/
+
+# ===============================
+# Paquetes / dependencias
+# ===============================
+.eggs/
+*.egg-info/
+.eggs-info/
+pip-wheel-metadata/
+
+# ===============================
+# Tests / coverage
+# ===============================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+logs/
+log/
+
+# ===============================
+# Archivos de configuración local
+# ===============================
+config.local.*
+settings.local.*
+secrets.*
+*.key
+*.pem
+
+# ===============================
+# Pickle / estados de bots
+# ===============================
+*.pkl
+*.pickle
+state/
+checkpoint/
+model/
+models/
+
+# ===============================
+# Bases de datos locales
+# ===============================
+*.sqlite
+*.sqlite3
+*.db
+
+# ===============================
+# IDEs
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# ===============================
+# Mac / Windows
+# ===============================
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+# ===============================
+# OS / misc
+# ===============================
+*.tmp
+*.temp
+*.cache
+
+# ===============================
+# Bybit / Trading bots (útil para ti)
+# ===============================
+data/
+market_data/
+ohlcv/
+backtests/
+results/
+reports/
+
+# ===============================
+# Async / runtime
+# ===============================
+*.pid
+*.sock
+
+# pyenv
+.python-version
